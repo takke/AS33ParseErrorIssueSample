@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion as Integer
+    buildToolsVersion rootProject.ext.buildToolsVersion as String
+
+//    defaultConfig {
+//        applicationId "com.twitpane"
+//        versionCode rootProject.ext.versionCode as Integer
+//        versionName rootProject.ext.versionName as String
+//
+//        targetSdkVersion rootProject.ext.targetSdkVersion as Integer
+//        minSdkVersion rootProject.ext.minSdkVersion as Integer
+//    }
+
+//    compileOptions {
+//        sourceCompatibility JavaVersion.VERSION_1_8
+//        targetCompatibility JavaVersion.VERSION_1_8
+//    }
+//
+//    flavorDimensions "edition"
+//
+//    productFlavors {
+//        // edition
+//        free {
+//            dimension "edition"
+//            applicationId "com.twitpane"
+//            manifestPlaceholders = [oauthCallbackScheme: "twitpane"]
+//        }
+//    }
+
+}
+
+dependencies {
+
+}
